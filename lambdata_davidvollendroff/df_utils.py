@@ -19,5 +19,5 @@ class O:
         mold[2, 4:6] = 1
         self.position = mold
 
-        self.position = [self.position, self.position, self.position, self.position]
+        self.position = [self.position, self.position, self.position, self.position] # square blocks look the same under rotation
            
