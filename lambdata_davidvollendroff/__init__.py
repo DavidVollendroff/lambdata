@@ -12,11 +12,6 @@ import seaborn as sns
 def confusion_plot(y_true, y_pred, cmap='viridis'):
   """
   Plots a confusion matrix using the Seaborn library
-  cmap: Color-mapping
-  :param y_true:
-  :param y_pred:
-  :param cmap:
-  :return:
   """
   labels = unique_labels(y_val)
   columns = [f'Predicted {label}' for label in labels]
