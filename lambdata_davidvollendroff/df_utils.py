@@ -7,6 +7,12 @@ import numpy as np
 
 TEST_DF = pandas.DataFrame([1,2,3])
 
+def explore_df(dataframe):
+    print(dataframe.describe())
+    print('Null Values\n', dataframe.isnull().value_counts())
+    print('Head\n', dataframe.head())
+    print('Tail\n', dataframe.tail())
+
 class O:
     """
     A square shaped block for my PyTetris game.
